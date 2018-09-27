@@ -1,0 +1,37 @@
+--- 
+title: "Data Sciency jokes"
+author: "Sayanti Ghosh"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "Just for fun."
+---
+
+# Just read it !!!
+
+1. There are two kinds of data scientists: 1) Those who can extrapolate from incomplete data.
+
+2. In data science, 80 percent of time spent is preparing data, 20 percent of time is spent complaining about the need to prepare data. 
+
+3. There are 10 kinds of people in this world, those who understand binary, and those who don’t.
+
+4. The B in Benoit B. Mandelbrot stands for Beniot B. Mandelbrot.
+
+5. You are so mean that your standard deviation is zero.
+
+6. Two random variables were talking in a bar. They thought they were being discrete, but I heard their chatter continuously.
+
+7. What do you get when you cross a mosquito with a mountain climber? Nothing. You can’t cross a vector and a scalar.
+
+8. How did the random variable get into the club? By showing a fake i.i.d.
+
+9. A physicist, a mathematician, and a statistician go hunting. They spot a deer, and take aim. The physicist shoots first and misses 10 meters to the right. The mathematician shoots next and misses 10 meters to the left. The statistician then throws down his gun and proclaims, “we got it!”
+
+10. Why did the chicken cross the road? The answer is trivial and is left as an exercise for the reader. 
+
+
