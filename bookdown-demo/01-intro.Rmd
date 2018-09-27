@@ -1,21 +1,21 @@
 # Introduction {#intro}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+1. There are two kinds of data scientists: 1) Those who can extrapolate from incomplete data.
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+2. In data science, 80 percent of time spent is preparing data, 20 percent of time is spent complaining about the need to prepare data. 
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
+3. There are 10 kinds of people in this world, those who understand binary, and those who don’t.
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+4. The B in Benoit B. Mandelbrot stands for Beniot B. Mandelbrot.
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
+5. You are so mean that your standard deviation is zero.
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+6. Two random variables were talking in a bar. They thought they were being discrete, but I heard their chatter continuously.
+
+7. What do you get when you cross a mosquito with a mountain climber? Nothing. You can’t cross a vector and a scalar.
+
+8. How did the random variable get into the club? By showing a fake i.i.d.
+
+9. A physicist, a mathematician, and a statistician go hunting. They spot a deer, and take aim. The physicist shoots first and misses 10 meters to the right. The mathematician shoots next and misses 10 meters to the left. The statistician then throws down his gun and proclaims, “we got it!”
+
+10. Why did the chicken cross the road? The answer is trivial and is left as an exercise for the reader. 
